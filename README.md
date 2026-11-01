@@ -78,8 +78,16 @@ The project has 55 automated tests, plus type checking, a production build, and 
 - Tracking models load from a CDN, so the first camera start needs an internet connection.
 - Latency depends on your network and hardware.
 
-## Credits
+## Credits and contributions
 
-Original project by **[original author's name]** ([original repository link]).
-My contributions: **[list exactly what you built or changed]**.
+This repository is a fork of [jithendragudapati1-cmd/gesture-kombat](https://github.com/jithendragudapati1-cmd/gesture-kombat).
+
+**My contributions (Shasmith Reddy Dokuri):**
+
+- **Computer vision pipeline:** Built the real-time pipeline that uses MediaPipe Holistic to process webcam pose and hand landmarks and translate physical movements into game commands.
+- **Gesture recognition and combat logic:** Developed the gesture recognition, combat logic, and state management, including jitter-reduction logic that turns noisy real-world input into reliable actions.
+- **3D rendering and animation:** Built the interactive 3D rendering and procedural character movement with Three.js and WebGL2, integrating tracking, gameplay logic, and UI into one application.
+- **Client-server architecture:** Implemented the authoritative game state, multiplayer synchronization, AI-controlled opponents, match lifecycle management, and persistent match data.
+- **Testing and reliability:** Tested the system across real camera, lighting, latency, and input conditions, and used automated tests and iterative performance improvements to improve reliability and responsiveness.
+
 Character models were generated with Tripo, and the arena artwork was supplied by the project owner. Check the usage terms of each asset before reusing it.
